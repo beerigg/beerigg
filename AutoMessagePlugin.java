@@ -8,7 +8,7 @@ public class AutoMessagePlugin extends JavaPlugin {
 
     public void onEnable() {
         Bukkit.getScheduler().runTaskTimer(this, () -> {
-            Bukkit.broadcastMessage("§6§l[ABCISRAEL] §fזוהי הודעה אוטומטית לכל השחקנים!");
+            Bukkit.broadcastMessage("§6§l[בדיקה] §fזוהי הודעה אוטומטית לכל השחקנים!");
             
             // שליחת ניסיון לכל שחקן אחרי 3 שניות
             Bukkit.getScheduler().runTaskLater(this, () -> {
